@@ -1,3 +1,54 @@
+/* Import the Poppins font with all available font weights */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* Default font size: 16px for accessibility */
+  line-height: 1.5; /* Better text readability */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  background-color: #f9f9f9; /* Light gray background for a clean look */
+  color: #333; /* Dark gray text for good contrast */
+  font-size: 1rem; /* Base font size: 16px */
+  -webkit-font-smoothing: antialiased; /* Smooth text rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smooth text rendering on macOS */
+}
+
+/* Base link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Base styles for images and media */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Base styles for forms */
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Inherit font styles from body */
+}
+
+button {
+  cursor: pointer;
 }
