@@ -1,7 +1,5 @@
-/* Import the Poppins font with all available font weights */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Apply base styles */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +13,8 @@ html {
 }
 
 body {
-  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-family: 'Poppins';
+  font-weight: 500;
   background-color: #f9f9f9; /* Light gray background for a clean look */
   color: #333; /* Dark gray text for good contrast */
   font-size: 1rem; /* Base font size: 16px */

@@ -7,6 +7,7 @@ const App = () => {
   return (
     <Content>
       <Title>Hello World</Title>
+      <div>From Sajin</div>
     </Content>
   )
 }
