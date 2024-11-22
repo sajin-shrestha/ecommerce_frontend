@@ -1,15 +1,8 @@
-import { Typography } from 'antd'
-import { Content } from 'antd/es/layout/layout'
-
-const { Title } = Typography
+import { RouterProvider } from 'react-router-dom'
+import router from './routes'
 
 const App = () => {
-  return (
-    <Content>
-      <Title>Hello World</Title>
-      <div>From Sajin</div>
-    </Content>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
